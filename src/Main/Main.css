@@ -1,0 +1,13 @@
+.Main {
+    width: 100%;
+    min-height: 640px;
+    position: relative;
+    border-color: blue;
+}
+
+.MainImage {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

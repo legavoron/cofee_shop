@@ -24,6 +24,9 @@
     font-weight: 400;
     display: inline-block;
 }
+.NavList a:active {
+    color: rgb(240, 202, 195);
+}
 
 @media (max-width: 500px) {
     .NavList li {
@@ -31,5 +34,14 @@
     }
     .NavList a {
         font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 230px) {
+    .NavList li {
+        margin-right: 0.5rem;
+    }
+    .NavList a {
+        font-size: 0.3rem;
     }
 }

@@ -1,0 +1,48 @@
+.MiniLogo {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 11.25rem;
+    height: 1.76rem;
+    margin-top: 1.18rem;
+}
+
+.line {
+    width: 33.3333%;
+    height: 50%;
+}
+
+.lineBlack {
+    border-bottom: 1px solid #000000;
+}
+
+.lineWhyte {
+    border-bottom: 1px solid #fff;
+}
+
+.MiniLogoImage {
+    height: 1.76rem;
+    width: 1.76rem;
+}
+
+@media (max-width: 900px) {
+   .MiniLogo {
+    height: 1.2rem;
+   }
+    .MiniLogoImage {
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+}
+@media (max-width: 500px) {
+    
+    .MiniLogoImage {
+        height: 0.8rem;
+        width: 0.8rem;
+    }
+    .MiniLogo {
+        width: 7rem;
+        margin-top: 0.5rem;
+        height: 0.8rem;
+    }
+}

@@ -18,6 +18,7 @@
     color: #fff;
     font-weight: 700;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
 }
 
 .lineContainer {
@@ -49,6 +50,7 @@
     font-size: 1.5rem;
     color: #fff;
     font-weight: 700;
+    text-align: center;
 }
 
 .MainContainer button {
@@ -60,6 +62,12 @@
     color: #fff;
     font-size: 0.875rem;
     font-family: 'Merienda';
+    cursor: pointer;
+}
+
+.MainContainer button:active {
+    color: rgb(240, 202, 195);
+    border: 1px solid rgb(240, 202, 195);
 }
 
 .lastH2 {
@@ -67,6 +75,7 @@
     padding: 0;
     margin-top: 1.25rem;
     margin-bottom: 4.56rem;
+    text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -107,14 +116,13 @@
     }
     .MainContainer__h2 {
         font-size: 0.5rem;
-        margin-top: 0.5rem;
+        margin-top: 0.8rem;
         font-weight: 400;
     }
     .lastH2 {
-        margin-bottom: 0.5rem;
+        margin-bottom: 1.6rem;
     }
     .MainContainer button {
         width: 5rem;
-        font-size: 0.5rem;
     }
 }

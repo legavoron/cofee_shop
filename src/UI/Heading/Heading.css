@@ -1,0 +1,24 @@
+.Heading {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 2.18rem;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 700;
+}
+
+@media (max-width: 900px) {
+    .Heading {
+        font-size: 1rem;
+        margin-top: 1.8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .Heading {
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+        font-weight: 400;
+    }
+}
